@@ -11,8 +11,8 @@ var routes = require('./routes/index');
 var app = express();
 
 AWS.config.update({
-  accessKeyId: 'AKIAJIRTR7YOUF5H5F6A',
-  secretAccessKey: '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',
+  accessKeyId: 'accesskey',
+  secretAccessKey: 'secretkey',
   region: "us-west-2",
   endpoint: "https://dynamodb.us-west-2.amazonaws.com"
 });
